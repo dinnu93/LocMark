@@ -1,3 +1,3 @@
 # LocMark
-* Location based Market Place
+Location based Market Place
 
