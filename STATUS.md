@@ -10,4 +10,5 @@
 ## 5/10/16
 
 * I'll try to implement just the map.
-* using [Open Street Maps](http://www.openstreetmap.org/about/) & [Mapbox](https://www.mapbox.com/) for map-imaging support.
+* Using [Open Street Maps](http://www.openstreetmap.org/about/) & [Mapbox](https://www.mapbox.com/) for map-imaging support.
+* Estimated time to figure out the how to use [mapbox-python-sdk](https://github.com/mapbox/mapbox-sdk-py) library working to make the map on website is 3 days i.e by the end of *7/10/16* .
