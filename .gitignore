@@ -13,4 +13,3 @@ pyvenv.cfg
 pip-selfcheck.json
 *.pyc
 env/
-static/
