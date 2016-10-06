@@ -30,6 +30,7 @@
       map.addControl(nav);
       geoLocate = new mapboxgl.Geolocate({position: 'top-left'});
       map.addControl(geoLocate);
+      var marker = new mapboxgl.Marker().setLngLat(options.center).addTo(map);
     </script>
   </body>
 </html>

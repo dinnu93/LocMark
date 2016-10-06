@@ -12,3 +12,9 @@
 * I'll try to implement just the map.
 * Using [Open Street Maps](http://www.openstreetmap.org/about/) & [Mapbox](https://www.mapbox.com/) for map-imaging support.
 * Estimated time to figure out the how to use [mapbox-python-sdk](https://github.com/mapbox/mapbox-sdk-py) library and make the map on website is 3 days i.e by the end of **7/10/16** .
+
+## 6/10/16
+
+* Went through the Mapbox javascript docs.
+* Implemented the maps in website and made the controls working but the map marker doesn't work yet.
+* Went through the python-sdk for geocoding and map images, I'll implement the backend tomorrow. 
