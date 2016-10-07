@@ -17,4 +17,9 @@
 
 * Went through the Mapbox javascript docs.
 * Implemented the maps in website and made the controls working but the map marker doesn't work yet.
-* Went through the python-sdk for geocoding and map images, I'll implement the backend tomorrow. 
+* Went through the python-sdk for geocoding and map images, I'll implement the backend tomorrow.
+
+## 7/10/16
+
+* Hosted the project on digital ocean server.
+* Got stuck on implementing the map marker, Somehow it's not working even after I followed the docs.
