@@ -27,7 +27,7 @@
 ## 10/10/16
 
 * Installed Python3 & Django and started the django tutorial.
-* **Time estimate**
+* **Time estimate** (*Total* : 5 days)
   * Learning basic django and porting the current app to django (2 days).
   * Making the map marker API to work (1 day).
   * Autocomplete for the location search and link it to move the map marker API (2 days).
