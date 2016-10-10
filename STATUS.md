@@ -23,3 +23,11 @@
 
 * Hosted the project on digital ocean server.
 * Got stuck on implementing the map marker, Somehow it's not working even after I followed the docs.
+
+## 10/10/16
+
+* Installed Python3 & Django and started the django tutorial.
+* **Time estimate**
+** Learning basic django and porting the current app to django (2 days).
+** Making the map marker API to work (1 day).
+** Autocomplete for the location search and link it to move the map marker API (2 days).
