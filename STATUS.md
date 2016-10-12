@@ -35,3 +35,7 @@
 
 * Learned enough django to port the current app.
 * Ported the current app to django(code is in this repo).
+
+## 12/10/16
+
+* Went through mapbox API made something similar to draggable map marker.
