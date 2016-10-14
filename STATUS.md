@@ -39,3 +39,17 @@
 ## 12/10/16
 
 * Went through mapbox API made something similar to draggable map marker.
+
+## 13/10/16
+
+* Got stuck with the API, took a different route and found leaflet which is a user friendly version on top of mapbox.
+
+## 14/10/16
+
+* **Feature Name** : Draggable Map Marker.
+* **Status** : Done with developing!
+* **Demo Status** : Nothing to demo today.
+
+* Read through the leaflet API and finally made the draggable map marker.
+* Done for the day, So deployment on Monday.
+* As it's my first django deployment after that I can use a script to deploy after every new feature release.
