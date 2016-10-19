@@ -53,3 +53,11 @@
 * Read through the leaflet API and finally made the draggable map marker.
 * Done for the day, So deployment on Monday.
 * As it's my first django deployment after that I can use a script to deploy after every new feature release.
+
+## 19/10/16
+
+* **Feature Name** : Autocomplete search for locations on map
+* **Time estimate** : 2 days
+* **Demo Status** : Nothing to demo today.
+
+* Went through a bunch of leaflet plugin API's and tried them. 
