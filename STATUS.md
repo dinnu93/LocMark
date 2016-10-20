@@ -60,4 +60,13 @@
 * **Time estimate** : 2 days
 * **Demo Status** : Nothing to demo today.
 
-* Went through a bunch of leaflet plugin API's and tried them. 
+* Went through a bunch of leaflet plugin API's and tried them.
+
+## 20/10/16
+
+* **Feature Name** : Autocomplete search for locations on map
+* **Status** : 1 more day.
+* **Demo Status** : Nothing to demo today.
+
+* Wrote code for the Autocomplete search for locations and it's working.(Mapzen geocode API)
+* Need to now connect the above two features to work together as they are from two different API's
