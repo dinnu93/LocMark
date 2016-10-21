@@ -70,3 +70,11 @@
 
 * Wrote code for the Autocomplete search for locations and it's working.(Mapzen geocode API)
 * Need to now connect the above two features to work together as they are from two different API's
+
+## 21/10/16
+
+* **Feature Name** : Autocomplete search for locations on map
+* **Status** : Done developing.
+* **Demo Status** : Nothing to demo today.
+
+* Connected the draggable map markers and autocomplete location search to work together.
