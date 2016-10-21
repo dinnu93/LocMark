@@ -8,7 +8,6 @@
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static/css/custom.css"/>
     <style>
@@ -23,26 +22,24 @@
 <body>
   <div id="map"></div>
   <script>
-    var map = L.map('map').setView([12.97663, 80.21893], 10);
+    var map = L.map('map').setView([12.97663, 80.21893], 13);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     maxZoom: 18,
     id: 'dinnu93.1ldei6lm',
     accessToken: 'pk.eyJ1IjoiZGlubnU5MyIsImEiOiJjaXR4enFodDIwM2o2MnNxdjE2cTJobWZpIn0.bzM5UZ9K59w_sCws8geC2Q'
     }).addTo(map);
 
-    var marker = L.marker([12.97663, 80.21893], {draggable: true}).addTo(map);
+    var geocoder = L.control.geocoder('mapzen-KXFEp1R',  {
+      focus: false,
+      markers: {
+        draggable: true,
+        popup: false
+      }
+    }).addTo(map);
 
-    marker.on("drag", function(e) {
-    var marker = e.target;
-    var position = marker.getLatLng();
-    map.panTo(new L.LatLng(position.lat, position.lng));
-    });
+    geocoder.markers = [L.marker([12.97663, 80.21893], {draggable: true}).addTo(map)];
 
-    var options = {
-      focus: false
-    };
-
-    L.control.geocoder('mapzen-KXFEp1R', options).addTo(map);
+    
 
   </script>
 </body>
