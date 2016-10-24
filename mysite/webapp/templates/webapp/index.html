@@ -31,16 +31,28 @@
 
     var geocoder = L.control.geocoder('mapzen-KXFEp1R',  {
       focus: false,
-      markers: {
-        draggable: true,
-        popup: false
-      }
+      markers: false
     }).addTo(map);
 
-    geocoder.markers = [L.marker([12.97663, 80.21893], {draggable: true}).addTo(map)];
+    var markerIcon = L.marker([12.97663, 80.21893], {draggable: true}).addTo(map);
 
+    geocoder.on('select', function(e){
+      console.log(e.latlng);
+      markerIcon.removeFrom(map);
+      markerIcon = L.marker([e.latlng.lat, e.latlng.lng], {draggable: true}).addTo(map);
+      markerIcon.on("drag", function(e) {
+        var markerIcon = e.target;
+        var position = markerIcon.getLatLng();
+        map.panTo(new L.LatLng(position.lat, position.lng));
+      });
+    });
+
+    markerIcon.on("drag", function(e) {
+      var markerIcon = e.target;
+      var position = markerIcon.getLatLng();
+      map.panTo(new L.LatLng(position.lat, position.lng));
+    });
     
-
   </script>
 </body>
 </html>
