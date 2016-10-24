@@ -78,3 +78,13 @@
 * **Demo Status** : Nothing to demo today.
 
 * Connected the draggable map markers and autocomplete location search to work together.
+
+## 24/10/16
+
+* **Feature Name** : Panning the map arround the draggable map marker after the drag event happened.
+* **Status** : 1 more day
+* **Demo Status** : Nothing to demo today.
+
+* Wrote code for panning the map around the draggable map marker and it works.
+* Need to tweak the map marker icon a little bit.
+
