@@ -88,3 +88,11 @@
 * Wrote code for panning the map around the draggable map marker and it works.
 * Need to tweak the map marker icon a little bit.
 
+## 25/10/16
+
+* **Feature Name** : Panning the map arround the draggable map marker after the drag event happened.
+* **Status** : Done Developing
+* **Demo Status** : Nothing to demo today.
+
+* Wrote code for customizing the map marker icon using the API.
+
