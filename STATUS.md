@@ -96,3 +96,8 @@
 
 * Wrote code for customizing the map marker icon using the API.
 
+## 26/10/16
+
+* Done with the front-end part of MVP. So Focusing on Back-end part of MVP like posting ads to the map.
+* Went through some basics of Django for designing the basic backend.
+
